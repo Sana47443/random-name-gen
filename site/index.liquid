@@ -1,0 +1,11 @@
+---
+title: "Random Name Generator"
+layout: layout.liquid
+---
+
+<section id="nameGenerator" x-data="nameGeneratorData()">
+    <h1 id="generatedName" x-text="currentName || 'Click to Generate a Name'"></h1>
+    <button id="generateButton" @click="generateName()">Generate Name</button>
+</section>
+
+<script src="script.js"></script>
